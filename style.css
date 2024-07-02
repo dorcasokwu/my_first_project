@@ -1,0 +1,509 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainbar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shapely {
+  font-size: x-large;
+  color: gray;
+}
+.herosection {
+  height: 100vh;
+  background-color: bisque;
+  background-image: url(photowork13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+.text {
+  font-size: 60px;
+  color: white;
+  font-weight: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+.paragraph {
+  color: white;
+  font-size: medium;
+  margin-top: 40px;
+  margin-bottom: 17px;
+  text-transform: capitalize;
+}
+.button1 {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgba(42, 20, 163, 0.795);
+  border-style: solid;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.button2 {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.parentbutton {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.button1:hover {
+  width: 300px;
+  height: 70px;
+  color: white;
+  background-color: rgba(72, 37, 168, 0.795);
+  border-style: solid;
+  border-radius: 2px;
+  border-color: transparent;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.button2:hover {
+  width: 300px;
+  height: 70px;
+  color: black;
+  background-color: rgba(247, 241, 241, 0.938);
+  border-style: solid;
+  border-radius: 2px;
+  border-color: white;
+  border-width: 1px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.DISPLAY-FLEX {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  gap: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-top: 50px;
+}
+.IMAGE2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.IMAGEDIV {
+  width: 50%;
+}
+.seo-friendly {
+  width: 50%;
+  height: 50%;
+  font-weight: 200;
+}
+.seo {
+  font-size: xx-large;
+}
+.seotext {
+  font-size: medium;
+  color: rgb(99, 94, 94);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.readmore {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(70, 13, 70);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.readmore:hover {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(11, 224, 57);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.PORTFOLIOPADIV {
+  background-color: whitesmoke;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  justify-items: center; */
+}
+.displayport {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-size: cover; */
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin-top: 100px;
+}
+.portfoliod {
+  width: 50%;
+  height: 50%;
+  font-weight: 300;
+}
+.portfoliosection {
+  font-size: xx-large;
+}
+.portfoliotext {
+  font-size: medium;
+  color: rgb(99, 94, 94);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  color: black;
+  font-weight: 400;
+}
+.image2div {
+  width: 50%;
+}
+.imagey {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.READ {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(70, 13, 70);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.READ:hover {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(9, 235, 84);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.parentdivsmall {
+  height: 90vh;
+  background-image: url(./photowork4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content: center;
+}
+.parentparallax {
+  color: white;
+  text-align: center;
+  align-content: center;
+  height: 30vh;
+  align-items: center;
+}
+.readmore4 {
+  width: 200px;
+  height: 40px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.readmore4:hover {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(8, 201, 40);
+  color: white;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+.parenth11 {
+  text-align: center;
+}
+.p {
+  margin: 10px;
+  font-size: medium;
+  font-weight: 100;
+}
+.h11 {
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  /* margin-left: 50%; */
+}
+.picture {
+  height: 70vh;
+  background-image: url(photowork5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.parentdivour {
+  height: 120vh;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.parentdivour h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 30px;
+}
+.parentdivour p {
+  text-align: center;
+  font-weight: 200;
+  font-size: medium;
+}
+.img-parent-div {
+  display: grid;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-gap: 20px; */
+}
+/* .img-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; */
+/* } */
+
+.img-parent-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* width: 300px;
+  height: 300px; */
+}
+.project1 {
+  position: absolute;
+  /* text-align: center; */
+  color: white;
+  opacity: 0;
+  background-color: antiquewhite;
+}
+.img-parent-div div:hover .project1 {
+  background-color: transparent;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  text-align: center;
+  align-content: center;
+}
+.ima1 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+/* customer say */
+.parentdivcustomer {
+  background-image: url(photowork14.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content: center;
+}
+.divsay {
+  text-align: center;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.divima {
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.dorcas {
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+}
+.agu {
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}
+.imamaq {
+  display: flex;
+  width: 10px;
+  height: 10vh;
+  gap: 30px;
+  margin-top: 10vh;
+}
+.Clients {
+  color: blue;
+  font-weight: 400;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+/* customer say ends here */
+.parantdivword {
+  background-color: whitesmoke;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+}
+.dowhere {
+  background-color: rgb(104, 21, 129);
+  height: 50px;
+  width: 150px;
+  align-content: center;
+  margin-left: 600px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.dowhere:hover {
+  background-color: rgb(10, 156, 76);
+  height: 50px;
+  width: 150px;
+  align-content: center;
+  margin-left: 600px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.parentdivicon {
+  background-color: black;
+  background-size: cover;
+  height: 20vh;
+}
+
+@media (max-width: 768px) {
+  .parentbutton {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 834px) {
+  .DISPLAY-FLEX {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .IMAGEDIV {
+    width: 100%;
+  }
+  .seo-friendly {
+    width: 100%;
+  }
+  .PORTFOLIOPADIV {
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .displayport {
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image2div {
+    width: 100%;
+  }
+  .portfoliod {
+    width: 100%;
+  }
+  .parentdivcustomer {
+    gap: 20px;
+  }
+  .img-parent-div {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+  }
+  .parentdivcustomer {
+    gap: 20px;
+  }
+}
