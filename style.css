@@ -376,7 +376,7 @@
 /* customer say */
 .parentdivcustomer {
   background-image: url(photowork14.jpg);
-  height: 80vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -457,6 +457,17 @@
   background-color: black;
   background-size: cover;
   height: 20vh;
+  /* width: 20px; */
+  color: white;
+  display: flex;
+  /* ustify-content: center;j */
+}
+.icons {
+  display: flex;
+  gap: 30px;
+  align-content: end;
+  color: white;
+  margin-left: 600px;
 }
 
 @media (max-width: 768px) {
@@ -496,14 +507,50 @@
   .portfoliod {
     width: 100%;
   }
-  .parentdivcustomer {
-    gap: 20px;
-  }
+
   .img-parent-div {
     grid-template-columns: repeat(1, 1fr);
-    height: auto;
+    height: 20vh;
+  }
+  .ima1 {
+    height: 10vh;
   }
   .parentdivcustomer {
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: auto;
+  }
+  .divsay {
+    margin-top: 250px;
+    font-size: small;
+  }
+  .parantdivword {
+    font-size: small;
+    margin-top: 10px;
+    height: 20vh;
+    width: auto;
+  }
+  .dowhere {
+    height: 3vh;
+    width: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .parentdivicon {
+    height: 60vh;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 70px;
+    height: 3vh;
+    width: 5;
   }
 }
